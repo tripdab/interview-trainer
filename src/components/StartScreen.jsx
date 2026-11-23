@@ -27,7 +27,7 @@ const StartScreen = () => {
       <div className='grid gap-8 md:grid-cols-[1.1fr_0.9fr] md:items-end'>
         <div>
           <span className='badge mb-5'>Frontend практика</span>
-          <h1 className='max-w-3xl text-5xl font-bold leading-[1.15] tracking-normal sm:text-6xl'>
+          <h1 className='max-w-3xl text-3xl font-bold leading-[1.15] tracking-normal sm:text-5xl'>
             Тренажер Frontend собеседований
           </h1>
         </div>
