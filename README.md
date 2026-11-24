@@ -4,6 +4,8 @@
 
 🔗 [Посмотреть демо на GitHub Pages](https://github.io)
 
+![Превью приложения Тренажер Frontend собеседований](./public/preview.jpeg)
+
 ## 🛠 Стек технологий
 
 - **React 19** (компонентный подход, кастомные хуки, Context API)
