@@ -1,18 +1,28 @@
-# React + Vite
+# Тренажер Frontend собеседований (Interview Trainer)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Интерактивное веб-приложение для подготовки к техническим интервью по фронтенд-разработке.
 
-Currently, two official plugins are available:
+🔗 [Посмотреть демо на GitHub Pages](https://github.io)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Стек технологий
 
-## React Compiler
+- **React 19** (компонентный подход, кастомные хуки, Context API)
+- **Tailwind CSS v4** (утилитарная стилизация, адаптив `320px - 1920px+`, тёмная тема)
+- **Vite** (сборка проекта и dev-сервер)
+- **Web APIs** (`localStorage` для сохранения рекордов, `matchMedia` для системной темы)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## ✨ Особенности реализации
 
-Note: This will impact Vite dev & build performances.
+- **Категории и логика теста:** 5 направлений (`HTML`, `CSS`, `JavaScript`, `React`, `Mixed`) со случайной выборкой из 20 вопросов.
+- **Таймер и аналитика:** обратный отсчёт на 10 минут, подсчёт лучшего результата в `localStorage` и детальный разбор ошибок после завершения раунда.
+- **Кастомный UI:** собственный выпадающий список выбора темы (`Системная`, `Светлая`, `Тёмная`) с закрытием по клику вне элемента и клавише `Escape`.
+- **Адаптивность и доступность:** корректное отображение на любых экранах от `320px` и поддержка `aria`-атрибутов для скринридеров.
 
-## Expanding the ESLint configuration
+## 🚀 Локальный запуск
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com
+cd interview-trainer
+npm install
+npm run dev
+```
